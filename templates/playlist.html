@@ -1,0 +1,11 @@
+<ion-view view-title="Playlist {{viewTitle}}">
+  <ion-content>
+    <h1>Playlist</h1>
+    <ion-list>
+      <ion-item ng-repeat="playlist in events" href="#/app/event/{{playlist.id}}">
+        {{playlist.name}} 
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>
